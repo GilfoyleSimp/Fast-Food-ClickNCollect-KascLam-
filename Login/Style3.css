@@ -1,0 +1,100 @@
+﻿body {
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    font-family: monospace;
+    font-size: larger;
+}
+.h1 {
+    margin-top: 70px;
+    text-align: center;
+}
+.customize-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.customization {
+    padding-left: 30px;
+}
+
+.gridview-customization th{
+    border: none;
+}
+.gridview-customization td {
+    border: none;
+    padding:10px;
+}
+.gridview-customization {
+    border: none;
+    padding-right:20px;
+}
+.btn-customize {
+    text-decoration: none;
+    background-color: #FEE715FF;
+    color: black;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.btn-customize:hover{
+    background-color: #feb215;
+}
+.btn-customize2 {
+    text-decoration: none;
+    background-color: #FEE715FF;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 21px;
+    margin: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+    .btn-customize2:hover {
+        background-color: #5efe15;
+    }
+.submit-order-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column;
+}
+header {
+    position: fixed;
+    background: #22242A;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    left: 0;
+}
+
+.left-area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left-area span {
+    color: #FEE715FF;
+}
+.customize-checkbox {
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+}

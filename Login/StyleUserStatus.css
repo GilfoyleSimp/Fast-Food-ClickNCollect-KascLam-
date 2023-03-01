@@ -1,0 +1,22 @@
+﻿
+
+
+ul li:nth-child(2) .fa {
+    background: #148e14;
+}
+
+   
+
+p {
+    color: #148e14;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid;
+    border: none;
+    padding: 20px;
+}
